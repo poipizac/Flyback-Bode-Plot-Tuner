@@ -32,21 +32,21 @@ const R_UPPER = 69800;
 const R_LED = 2000;
 
 const DEFAULT_PARAMS = {
-  phaseView: 'math',
-  vin: 110,    // V
-  lp: 500,     // uH
-  n: 6,        // Np/Ns Ratio
-  fsw_max: 65, // kHz
+  phaseView: 'instrument',
+  vin: 90,    // V
+  lp: 140,    // uH
+  n: 2.3,     // Np/Ns Ratio
+  fsw_max: 50, // kHz
   loadPct: 100,
   vout: 20,    // V
-  pout: 150,   // W
-  cout: 1690,  // uF
-  resr: 18,    // mOhm
+  pout: 65,    // W
+  cout: 570,   // uF
+  resr: 10,    // mOhm
   gainTrim: -10,
-  td: 2.6,     // us
-  gbw: 2.0,    // MHz
-  r68: 100000, 
-  c71: 100,    // nF
+  td: 10,      // us
+  gbw: 1,      // MHz
+  r68: 47000, 
+  c71: 68,     // nF
   c70: 68,     // nF
   r65: 1000,   // Ohm
   r64: 3900,   // Ohm
