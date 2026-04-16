@@ -58,7 +58,7 @@ const DEFAULT_PARAMS = {
 
 const App = () => {
   // State for parameters with persistence
-  const [params, setParams] = useLocalStorage('flyback-tuner-params-v1', DEFAULT_PARAMS);
+  const [params, setParams] = useLocalStorage('flyback-tuner-params-v2', DEFAULT_PARAMS);
   const [showSchematic, setShowSchematic] = useLocalStorage('flyback-show-schematic', true);
   const [isZoomed, setIsZoomed] = useState(false);
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
